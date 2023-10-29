@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerHome {
+  @apply text-center pt-12;
+}
+.containerNavBar {
+  @apply bg-zinc-900 w-full p-1 flex justify-between h-10 items-center font-bold fixed top-0 z-10 px-5 text-lg
+}
+.containerNavBar {
+  list-style: none;
+}
+.title{
+  @apply text-4xl
+}
+.btn {
+  @apply text-xl m-5 p-2 border-4 border-zinc-800 rounded-2xl bg-zinc-900
+}
+
+body {
+  background: #09090b;
+  color: #d4d4d8;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
